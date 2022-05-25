@@ -1,0 +1,195 @@
+.Title {
+  font-size: 100px;
+  margin: 5px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #808080;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.image-row {
+  background-size:cover;
+}
+
+.image-row-0 {
+  background-image:url('http://placekitten.com/200/300');
+  background-size:cover;
+}
+
+.image-row-1 {
+  background-image:url('https://i.scdn.co/image/ab6761610000e5eb2dc40ac263ef07c16a95af4e');
+  background-size:cover;
+}
+
+.image-row-2 {
+  background-image:url('https://i.scdn.co/image/ab6761610000e5eb24e41f491b129093a6fee383');
+  background-size:cover;
+}
+
+.image-row-3 {
+  background-image:url('https://i.scdn.co/image/ab6761610000e5eb8ae7f2aaa9817a704a87ea36');
+  background-size:cover;
+}
+
+.image-row-4 {
+  background-image:url('https://i.scdn.co/image/ab6761610000e5ebd155caf6e83268ad61be09cd');
+  background-size:cover;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  width: 10vmin;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-color: #108832;
+  min-height: 100vh;
+}
+
+.App-body {
+  padding: 30px;
+  margin: 30px;
+  background-color: #043512c0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-body2 {
+  padding: 30px;
+  margin: 30px;
+  background-color: #043512c0;
+  align-items: start;
+  /* justify-content: center; */
+  display: flex;
+}
+
+.dropdown {
+  margin: 12px;
+  width: 100px;
+  height: 30px;
+  align-self: center;
+}
+
+/* .button-image {
+
+} */
+
+.button-div {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.button-text {
+  z-index: -1;
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.button1 {
+  z-index: 999;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-image:url('https://i.scdn.co/image/ab6761610000e5eb8ae7f2aaa9817a704a87ea36');
+  background-size:cover;
+}
+
+.button2 {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-image:url('https://i.scdn.co/image/ab67616d0000b273f0dd8e557b66318ea8e6978d');
+  background-size:cover;
+}
+
+.button3 {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-image:url('http://placekitten.com/200/300');
+  background-size:cover;
+}
+
+.button4 {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-image:url('https://cabgrid.com/wp-content/uploads/2019/01/users.png');
+  background-size:cover;
+}
+
+.button5 {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-image:url('https://content.presentermedia.com/files/clipart/00021000/21918/headphones_on_laptop_800_wht.jpg');
+  background-size:cover;
+}
+
+.App-input {
+  width: 350px;
+  height: 25px;
+  align-self: center;
+}
+
+.App-input2 {
+  width: 200px;
+  height: 25px;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.App-header {
+  background-color: #043512c0;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
